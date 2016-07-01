@@ -8,15 +8,14 @@
 
 <header>
   <h1>Test website</h1>
-  <nav>
-    <ul>
-      <li><a href="{{site.baseurl}}/index.html">HomePage</a>
-      <li><a href="{{site.baseurl}}/newpage.html">NewPage</a>
-    </ul>
-  </nav>
+  {% include nav.html %}
 </header>
 
 {{content}}
+
+<footer>
+  Copyright © Data000. All rights reserved.
+</footer>
 
 </body>
 </html>
